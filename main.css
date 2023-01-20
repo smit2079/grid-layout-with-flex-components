@@ -32,3 +32,7 @@ body {
     grid-template-columns: 40% 40%;
     grid-gap: 15px;
   }
+
+  p {
+    padding: 15px;
+  }
