@@ -22,6 +22,8 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    display: flex;
+    flex-grow: 8;
   }
   
   .icon {
