@@ -13,7 +13,6 @@ body {
     margin: 0;
     border-bottom: 2px solid #ccc;
     display: flex;
-    order: 1;
   }
   
   .emoji a {
@@ -30,15 +29,12 @@ body {
     font-size: 4rem;
     display: flex;
     justify-content: center;
-    order: 2;
+    flex-flow: column wrap;
+    flex-direction: row;
   }
 
   .emojis {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 30% 30%;
     grid-gap: 15px;
-  }
-
-  p {
-    padding: 15px;
   }
